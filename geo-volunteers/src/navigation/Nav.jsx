@@ -54,7 +54,7 @@ function NavList() {
   );
 }
  
-export function NavbarSimple() {
+export function Navbar() {
   const [openNav, setOpenNav] = React.useState(false);
  
   const handleWindowResize = () =>
